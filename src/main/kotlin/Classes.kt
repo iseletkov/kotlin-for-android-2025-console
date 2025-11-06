@@ -1,9 +1,6 @@
 import ru.psu.kotlin2025.CBankAccount
 import ru.psu.kotlin2025.CPerson
 
-
-
-
 fun main() {
 
 //    var age = CPerson.MAX_AGE
