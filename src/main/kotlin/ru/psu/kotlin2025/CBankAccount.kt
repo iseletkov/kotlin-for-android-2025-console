@@ -1,10 +1,10 @@
 package ru.psu.kotlin2025
 
 class CBankAccount(
-    var accountNumber: String = "000000000", // - номер счета (только для чтения, задается при создании)
-    var ownerName: String = "",//- имя владельца (можно изменить)
-    var balance: Double = 0.0,//- текущий баланс (можно изменить только внутри класса)
-    var isActive: Boolean = true// - статус счета (активен/заблокирован)
+    private var accountNumber: String = "000000000", // - номер счета (только для чтения, задается при создании)
+    private var ownerName: String = "",//- имя владельца (можно изменить)
+    private var balance: Double = 0.0,//- текущий баланс (можно изменить только внутри класса)
+    private var isActive: Boolean = true// - статус счета (активен/заблокирован)
 )
 {
     //возвращает строку с полной информацией о счете

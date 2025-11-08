@@ -1,6 +1,7 @@
 package ru.psu.kotlin2025
 
-class CPerson (val name : String){
+class CPerson (
+    val name : String){
 
     companion object {
 
